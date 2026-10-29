@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DWWH PG | Modern Hostel & PG Resident Experience</title>
+  <meta name="description" content="Official portal for DWWH PG (Divya Women's Hostel). Powered by modern mobile technology for room allocation, digital rent payments, gate passes, and resident support.">
+  <meta name="keywords" content="DWWH PG, Divya Women's Hostel, PG accommodation Chennai, resident app, hostel management">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/jpeg" href="logo.jpeg">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Specific Home Styles */
+    .hero-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 60px 0 40px;
+    }
+
+    .hero-logo-large {
+      width: 108px;
+      height: 108px;
+      border-radius: var(--radius-xl);
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.7), 0 0 40px rgba(56, 189, 248, 0.25);
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      margin-bottom: 28px;
+      transition: transform 0.3s ease;
+    }
+
+    .hero-logo-large:hover {
+      transform: scale(1.06) rotate(1deg);
+    }
+
+    .hero-title-main {
+      font-size: 3.2rem;
+      font-weight: 800;
+      line-height: 1.15;
+      letter-spacing: -0.03em;
+      margin-bottom: 20px;
+      background: linear-gradient(180deg, #ffffff 0%, #cbd5e1 60%, #94a3b8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-desc-main {
+      font-size: 1.2rem;
+      color: var(--text-secondary);
+      max-width: 720px;
+      margin: 0 auto 32px;
+      line-height: 1.7;
+    }
+
+    .cta-group {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 48px;
+    }
+
+    .section-heading-wrapper {
+      text-align: center;
+      margin: 60px 0 36px;
+    }
+
+    .section-kicker {
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: var(--accent-primary);
+      margin-bottom: 8px;
+    }
+
+    .section-main-title {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+    }
+
+    @media (max-width: 768px) {
+      .hero-title-main {
+        font-size: 2.3rem;
+      }
+      .hero-desc-main {
+        font-size: 1.05rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Site Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-link" id="nav-brand">
+        <img src="logo.jpeg" alt="DWWH PG Logo" class="brand-logo" width="44" height="44">
+        <div class="brand-title">
+          <span class="brand-name">DWWH PG</span>
+          <span class="brand-tagline">Resident Portal & App</span>
+        </div>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link active" id="nav-home">Home</a></li>
+          <li><a href="privacy-policy.html" class="nav-link" id="nav-privacy">Privacy Policy</a></li>
+          <li><a href="deletion-policy.html" class="nav-link" id="nav-deletion">Account Deletion</a></li>
+          <li><a href="mailto:dwwh.chennai@gmail.com" class="nav-link btn-contact" id="nav-contact">Support</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Hero Content -->
+  <main class="content-wrapper">
+    <div class="container">
+
+      <!-- Hero Section -->
+      <section class="hero-container">
+        <img src="logo.jpeg" alt="DWWH PG Application" class="hero-logo-large" width="108" height="108">
+        <div class="hero-badge">Smart Living & Resident Management</div>
+        <h1 class="hero-title-main">DWWH PG Resident Portal</h1>
+        <p class="hero-desc-main">
+          Experience premium paying guest and hostel living. Seamlessly manage room allocations, digital rent payments, gate passes, maintenance issues, and real-time notifications right from your mobile device.
+        </p>
+
+        <div class="cta-group">
+          <a href="privacy-policy.html" class="btn btn-primary" id="hero-btn-privacy">
+            📜 Read Privacy Policy
+          </a>
+          <a href="deletion-policy.html" class="btn btn-secondary" id="hero-btn-deletion">
+            🛡️ Account & Data Deletion
+          </a>
+          <a href="mailto:dwwh.chennai@gmail.com" class="btn btn-secondary" id="hero-btn-contact">
+            ✉️ Contact Administration
+          </a>
+        </div>
+      </section>
+
+      <!-- Key App Features -->
+      <section id="features">
+        <div class="section-heading-wrapper">
+          <div class="section-kicker">Built for Modern Living</div>
+          <h2 class="section-main-title">Key Resident App Capabilities</h2>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">🛏️</div>
+            <h3 class="feature-title">Room & Bed Allocation</h3>
+            <p class="feature-desc">
+              View your room allocation, bed number, room-sharing details, and floor details in real time with transparent tariff breakdowns.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">💳</div>
+            <h3 class="feature-title">Digital Rent & Instant Receipts</h3>
+            <p class="feature-desc">
+              Easily review monthly rent statements, track advance security deposits, and download verifiable digital receipts instantly.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">📝</div>
+            <h3 class="feature-title">Gate Pass & Leave Requests</h3>
+            <p class="feature-desc">
+              Submit planned weekend gate passes and vacation requests directly to warden administration with timestamped approval logs.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">🔧</div>
+            <h3 class="feature-title">Maintenance Complaint Desk</h3>
+            <p class="feature-desc">
+              Quickly report electrical, plumbing, or room maintenance issues with optional photo uploads and follow resolution status in real time.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">🔔</div>
+            <h3 class="feature-title">Instant Push Notifications</h3>
+            <p class="feature-desc">
+              Stay informed with Firebase Cloud Messaging (FCM) alerts for invoice generation, payment confirmations, and hostel announcements.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">🔒</div>
+            <h3 class="feature-title">Verified Safety & Privacy</h3>
+            <p class="feature-desc">
+              Industry-standard TLS encryption, strict role-based access, and statutory police verification compliance to keep residents safe.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- App Store & Play Store Policy Showcase -->
+      <section id="policies">
+        <div class="section-heading-wrapper">
+          <div class="section-kicker">Compliance & Trust</div>
+          <h2 class="section-main-title">Developer & User Trust Guidelines</h2>
+        </div>
+
+        <div class="policy-showcase">
+          <div class="policy-promo-card">
+            <div>
+              <div style="font-size: 2rem; margin-bottom: 12px;">📄</div>
+              <h3>Privacy Policy</h3>
+              <p>
+                Learn how DWWH PG collects, protects, uses, and safeguards personal data, KYC documents, emergency contacts, and transaction history.
+              </p>
+            </div>
+            <a href="privacy-policy.html" class="btn btn-secondary">Read Full Privacy Policy &rarr;</a>
+          </div>
+
+          <div class="policy-promo-card">
+            <div>
+              <div style="font-size: 2rem; margin-bottom: 12px;">🛡️</div>
+              <h3>Data & Account Deletion</h3>
+              <p>
+                In compliance with Google Play Store & Apple App Store policies, learn how to request account and data deletion in-app or via web/email.
+              </p>
+            </div>
+            <a href="deletion-policy.html" class="btn btn-secondary">View Deletion Policy & Forms &rarr;</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Banner -->
+      <section class="action-box">
+        <div class="action-header">
+          <h3 class="action-title">Need Assistance or Have Questions?</h3>
+          <p class="action-subtitle">
+            Our management team is here to help with admissions, resident accounts, room support, and privacy questions.
+          </p>
+        </div>
+        <div class="contact-card" style="margin-top: 16px; background: rgba(0,0,0,0.25);">
+          <div class="contact-info">
+            <strong style="color: #ffffff; font-size: 1.1rem;">DWWH PG Administration Office</strong>
+            <span style="color: var(--text-secondary);">Divya Women's Hostel Management</span>
+            <span style="color: var(--text-muted); font-size: 0.88rem;">Chennai, Tamil Nadu, India</span>
+            <a href="mailto:dwwh.chennai@gmail.com" class="contact-email">dwwh.chennai@gmail.com</a>
+          </div>
+          <a href="mailto:dwwh.chennai@gmail.com" class="btn btn-primary">
+            Send an Email
+          </a>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-link">
+            <img src="logo.jpeg" alt="DWWH PG" class="brand-logo" width="38" height="38">
+            <span class="brand-name">DWWH PG</span>
+          </a>
+          <p>
+            Premium, secure, and modern PG & Hostel management solution for residents and administrators.
+          </p>
+        </div>
+        <div class="footer-nav">
+          <div>
+            <div class="footer-col-title">Navigation</div>
+            <ul class="footer-links">
+              <li><a href="index.html" class="footer-link">Home</a></li>
+              <li><a href="privacy-policy.html" class="footer-link">Privacy Policy</a></li>
+              <li><a href="deletion-policy.html" class="footer-link">Account Deletion</a></li>
+            </ul>
+          </div>
+          <div>
+            <div class="footer-col-title">Contact</div>
+            <ul class="footer-links">
+              <li><a href="mailto:dwwh.chennai@gmail.com" class="footer-link">dwwh.chennai@gmail.com</a></li>
+              <li><span class="footer-link" style="color: var(--text-muted);">Chennai, Tamil Nadu</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2026 DWWH PG (Divya Women's Hostel). All rights reserved.</div>
+        <div>Compliant with Google Play & App Store Developer Policies</div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
